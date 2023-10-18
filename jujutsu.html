@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/animesreset.css">
+    <link rel="stylesheet" href="./src/css/animesstyles.css">
+    <link rel="stylesheet" href="./src/css/animesresponsivo.css">
+    <title> Jujutsu Kaisen </title>
+</head>
+
+<body>
+
+    <audio id ="musica" src="./src/audios/openingJujutsu.mp3" autoplay> </audio>
+
+    <main class="personagens">
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Jujutsu/Jujutsu-logo.png"><img>
+                <h2 class="nome-personagem"> Suguru Geto </h2>
+                <p class="descricao"> Suguro Geto é um ex-feiticeiro de Jujutsu e parceiro de Satoru Gojo, que começou a
+                    desenvolver um ódio profundo por todos os não feiticeiros, planejando criar um mundo consistindo
+                    apenas de feiticeiros de jujutsu e usuários de maldição. Ele foi o orquestrador do Desfile Noturno
+                    dos Cem Demônios, um ataque terrorista de jujutsu nas cidades de Kyoto e Shinjuku. </p>
+            </div>
+
+            <video class="video" loop> 
+                <source src="./src/imagens/Jujutsu/fundo-getovideo.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">                     
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Jujutsu/Jujutsu-logo.png"><img>
+                <h2 class="nome-personagem"> Satoru Gojo </h2>
+                <p class="descricao"> Satoru Gojo é um dos principais personagens de Jujutsu Kaisen, e o sensei
+                    responsável pelo trio de protagonistas do anime. Ele é um feiticeiro jujutsu de Grau Especial (o
+                    mais alto de todos) e é conhecido por todos do mundo Jujutsu como o mais feiticeiro vivo mais
+                    poderoso. Além desse título, ele também é a primeira pessoa a herdar os Seis Olhos em cerca de 400
+                    anos. </p>
+            </div>
+
+            <video class="video" loop> 
+                <source src="./src/imagens/Jujutsu/fundo-gojovideo.mp4" type="video/mp4">
+                
+        </div>
+
+        <div class="personagem selecionado">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Jujutsu/Jujutsu-logo.png"><img>
+                <h2 class="nome-personagem"> Itadori Yuji </h2>
+                <p class="descricao"> Itadori Yuji é um feiticeiro do primeiro ano, que entrou no mundo da bruxaria
+                    depois de comer um dos vinte dedos pertencentes a Ryomen Sukuna, um poderoso espírito amaldiçoado,
+                    um ser manifestado a partir da energia amaldiçoada das emoções negativas que fluem nos humanos. Com
+                    seus colegas Megumi Fushiguro e Nobara Kugisaki, Yuji exorciza maldições enquanto tenta honrar o
+                    legado de seu avô e salvar outros incondicionalmente para que quando for executado após comer os
+                    vinte dedos, ele não morra simplesmente. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Jujutsu/fundo-itadorivideo.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Jujutsu/Jujutsu-logo.png"><img>
+                <h2 class="nome-personagem"> Nobara Kugisaki </h2>
+                <p class="descricao"> Nobara Kugisaki é o tritagonista de Jujutsu Kaisen. Ela está no primeiro ano da
+                    Escola Secundária Jujutsu da Prefeitura de Tóquio estudando com Satoru Gojo ao lado de Yuji e
+                    Megumi. </p>
+            </div>
+
+            <video class="video" loop> 
+                <source src="./src/imagens/Jujutsu/fundo-nobaravideo.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Jujutsu/Jujutsu-logo.png"><img>
+                <h2 class="nome-personagem"> Megumi Fushiguro </h2>
+                <p class="descricao"> Megumi Fushiguro é um estudante do primeiro ano na Tokyo Jujutsu Highe, também
+                    descendente da família Zenin. Megumi deseja ajudar a proteger as pessoas que ele vê como boas ou
+                    gentis. Ele acredita que o mundo é injusto e que um feiticeiro é uma ferramenta para garantir que
+                    pessoas gentis tenham mais chances de viver. </p>
+            </div>
+
+            <video class="video" loop> 
+                <source src="./src/imagens/Jujutsu/fundo-megumivideo.mp4" type="video/mp4">
+
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <button id="playButton"> 🔊 </button>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Jujutsu/circulo-getou.png" alt="Logo Geto">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Jujutsu/circulo-gojo.png" alt="Logo Gojo">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado">
+                <img src="./src/imagens/Jujutsu/circulo-itadori.png" alt="Logo Itadori">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Jujutsu/circulo-nobara.png" alt="Logo Nobara">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Jujutsu/circulo-megumi.png" alt="Logo Megumi">
+            </button>
+        </li>
+    </ul>
+    <script src="./src/js/animepage.js"></script>
+
+</body>
+
+</html>

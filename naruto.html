@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/animesreset.css">
+    <link rel="stylesheet" href="./src/css/animesstyles.css">
+    <link rel="stylesheet" href="./src/css/animesresponsivo.css">
+    <title> Naruto - Shippuden </title>
+</head>
+
+<body>
+
+    <audio id ="musica" src="./src/audios/openingNaruto.mp3" > </audio>
+
+    <main class="personagens">
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Naruto/logo-naruto2.png"><img>
+                <h2 class="nome-personagem"> Uchiha Madara </h2>
+                <p class="descricao"> Madara Uchiha foi o lendário líder do clã Uchiha durante a Era dos Estados Combatentes e um dos principais antagonistas da série. Ele fundou Konohagakure ao lado de seu rival, Hashirama Senju, com a intenção de iniciar uma era de paz. Eventualmente, quando os dois não concordaram quanto ao meio para alcançar a paz, eles lutaram pelo controle da aldeia em um combate histórico, que terminou com a morte de Madara.</p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Naruto/fundo-madara.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">                     
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Naruto/logo-naruto2.png"><img>
+                <h2 class="nome-personagem"> Kakashi Hatake </h2>
+                <p class="descricao"> Kakashi Hatake é um shinobi de Konohagakure. Ele recebeu um Sharingan de seu ex-companheiro de equipe, Obito Uchiha, quando era mais jovem, fazendo-o ser conhecido como Kakashi o Ninja Copiador e Kakashi do Sharingan. Seu prodigioso talento, habilidades e destreza com o Sharingan fizeram dele um dos mais capazes ninjas da aldeia, sendo reconhecido em todo o mundo ninja. </p>
+            </div>
+
+            <video class="video selecionado" autoplay loop> 
+                <source src="./src/imagens/Naruto/fundo-kakashi.mp4" type="video/mp4">
+                
+        </div>
+
+        <div class="personagem selecionado">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Naruto/logo-naruto2.png"><img>
+                <h2 class="nome-personagem"> Naruto Uzumaki </h2>
+                <p class="descricao"> Naruto Uzumaki é um shinobi de Konoha do clã Uzumaki e protagonista homônimo da franquia Naruto. Desde seu nascimento, ele se tornou jinchuuriki das Nove-Caudas, um destino que o levou a ser condenado e negligenciado por toda a aldeia durante sua infância. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Naruto/fundo-naruto.mp4" type="video/mp4">
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Naruto/logo-naruto2.png"><img>
+                <h2 class="nome-personagem"> Sakura Haruno </h2>
+                <p class="descricao"> Sakura Haruno é uma kunoichi de nível jounin do clã Uchiha, por se casar com Sasuke Uchiha, de Konoha. Ela é designada como um membro do Time Kakashi, mas rapidamente encontra-se mal preparada para os deveres de um ninja e as complicações das vidas de seus companheiros de equipe.  </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Naruto/fundo-sakura.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Naruto/logo-naruto2.png"><img>
+                <h2 class="nome-personagem"> Sasuke Uchiha </h2>
+                <p class="descricao"> Sasuke Uchiha é um dos últimos membros sobreviventes do clã Uchiha de Konoha, além de ser a reencarnação atual de Indra. Ele se tornou um shinobi para que pudesse algum dia ficar forte o suficiente para se vingar contra o seu irmão mais velho, Itachi, que tinha massacrado todo o seu clã. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Naruto/fundo-sasuke.mp4" type="video/mp4">
+
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <button id="playButton"> 🔊 </button>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Naruto/circulo-madara.png" alt="Logo Madara">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Naruto/circulo-kakashi.png" alt="Logo Kakashi">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado">
+                <img src="./src/imagens/Naruto/circulo-naruto.png" alt="Logo Naruto">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Naruto/circulo-sakura.png" alt="Logo Sakura">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Naruto/circulo-sasuke.png" alt="Logo Sasuke">
+            </button>
+        </li>
+    </ul>
+    <script src="./src/js/animepage.js"></script>
+
+</body>
+
+</html>

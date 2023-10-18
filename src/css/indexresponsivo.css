@@ -1,0 +1,37 @@
+@media (max-width: 769px){
+    .animeLogo{
+        padding-left: 25px;
+        column-gap: 0;
+    }
+    img{
+        width: 200px; 
+    }
+    }
+
+    @media (max-width: 425px){
+       body{
+        width: 100%;
+        height: 100vh;
+       }
+       section{
+        display: flex;
+        column-gap: 50px;
+        padding-left: 10px;
+        height: 80%;
+       
+       }
+       .animeLogo{
+        flex-direction: column;
+        column-gap: 100px;
+        width: 40%;
+        height: 100%;
+        padding-left: 0;
+        justify-content: space-evenly;
+        
+       }
+       img{
+        width: 130px;
+        height: 100px;
+        object-fit: cover;
+        }
+    }

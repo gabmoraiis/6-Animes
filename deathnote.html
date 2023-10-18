@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/animesreset.css">
+    <link rel="stylesheet" href="./src/css/animesstyles.css">
+    <link rel="stylesheet" href="./src/css/animesresponsivo.css">
+    <title> Death Note </title>
+</head>
+
+<body>
+
+    <audio id ="musica" src="./src/audios/openingDeathNote.mp3" autoplay> </audio>
+
+    <main class="personagens">
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DeathNote/logo-deathnote.png"><img>
+                <h2 class="nome-personagem"> Ryuk </h2>
+                <p class="descricao"> Ryuk é um Shinigami que segue o estudante Light Yagami após ter deixado o seu Death Note cair no mundo humano. Como todo Shinigami, Ryuk só pode ser visto por pessoas que tocaram em seu Death Note. Ele ama maçã e estava entediado com o Mundo dos Shinigami e propositadamente, largou o seu Death Note no mundos humanos, na esperança de se entreter. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DeathNote/fundo-ryuk.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">                     
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DeathNote/logo-deathnote.png"><img>
+                <h2 class="nome-personagem"> L </h2>
+                <p class="descricao"> L é um detetive de renome mundial que assume o desafio de capturar o serial killer conhecido apenas como Kira. Em sua investigação, L torna-se altamente suspeito de Light Yagami e torna seu objetivo de provar que a Light Yagami é Kira. </p>
+            </div>
+
+            <video class="video selecionado" autoplay loop> 
+                <source src="./src/imagens/DeathNote/fundo-L.mp4" type="video/mp4">
+                
+        </div>
+
+        <div class="personagem selecionado">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DeathNote/logo-deathnote.png"><img>
+                <h2 class="nome-personagem"> Light Yagami </h2>
+                <p class="descricao"> Light Yagami depois de descobrir o Death Note, decide usá-lo para livrar o mundo dos criminosos. Seus milagres são eventualmente rotulados por pessoas do Japão como o trabalho de "Kira".
+
+                </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DeathNote/fundo-light.mp4" type="video/mp4">
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DeathNote/logo-deathnote.png"><img>
+                <h2 class="nome-personagem"> Misa Amane </h2>
+                <p class="descricao"> Misa Amane é uma celebridade japonesa, que trabalha como modelo, atriz e cantora. Ela eventualmente se torna "o segundo Kira", para ajudar a causa de Light Yagami. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DeathNote/fundo-misa.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DeathNote/logo-deathnote.png"><img>
+                <h2 class="nome-personagem"> Near </h2>
+                <p class="descricao"> Nate River, também conhecido como Near, é o mais novo dos dois sucessores de L, criado no Orfanato Watari (Wammy's House) para crianças superdotadas em Winchester, Inglaterra. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DeathNote/fundo-N.mp4" type="video/mp4">
+
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <button id="playButton"> 🔊 </button>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DeathNote/circulo-ryuk.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DeathNote/circulo-L.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado">
+                <img src="./src/imagens/DeathNote/circulo-light.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DeathNote/circulo-misa.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DeathNote/circulo-N.png" alt="Logo ">
+            </button>
+        </li>
+    </ul>
+    <script src="./src/js/animepage.js"></script>
+
+</body>
+
+</html>

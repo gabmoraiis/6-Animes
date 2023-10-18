@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/animesreset.css">
+    <link rel="stylesheet" href="./src/css/animesstyles.css">
+    <link rel="stylesheet" href="./src/css/animesresponsivo.css">
+    <title> Kimetsu no Yaiba - Demon Slayer </title>
+</head>
+
+<body>
+
+    <audio id ="musica" src="./src/audios/openingDemonSlayer.mp3" autoplay> </audio>
+
+    <main class="personagens">
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DemonSlayer/logo-demonslayer.png"><img>
+                <h2 class="nome-personagem"> Muzan Kibutsuji </h2>
+                <p class="descricao"> Muzan Kibutsuji é um demônio, o primeiro de sua espécie, o progenitor de todos os outros demônios, sendo o principal antagonista de Kimetsu no Yaiba: Demon Slayer. Ele também é o Demônio responsável por massacrar a maioria da família Kamado e transformar Nezuko Kamado em Demônio. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DemonSlayer/fundo-muzan.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">                     
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DemonSlayer/logo-demonslayer.png"><img>
+                <h2 class="nome-personagem"> Zenitsu Agatsuma </h2>
+                <p class="descricao"> Zenitsu Agatsuma é um Caçador de Demônios. Ele é um companheiro de viagem e amigo de Tanjiro Kamado. </p>
+            </div>
+
+            <video class="video selecionado" autoplay loop> 
+                <source src="./src/imagens/DemonSlayer/fundo-zenitsu.mp4" type="video/mp4">
+                
+        </div>
+
+        <div class="personagem selecionado">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DemonSlayer/logo-demonslayer.png"><img>
+                <h2 class="nome-personagem"> Tanjiro Kamado </h2>
+                <p class="descricao"> Tanjiro Kamado é um membro dos Caçadores de Demônios, que se juntou a organização para caçar o responsável pelo assassinato de sua família e a transformação de sua irmã, Nezuko Kamado, em um demônio, enquanto também procurando uma cura para ela. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DemonSlayer/fundo-tanjiro.mp4" type="video/mp4">
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DemonSlayer/logo-demonslayer.png"><img>
+                <h2 class="nome-personagem"> Inosuke Hashibira </h2>
+                <p class="descricao"> Inosuke Hashibira é um Caçador de Demônios, sendo um dos amigos e companheiro de viagem de Tanjiro Kamado. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DemonSlayer/fundo-inosuke.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DemonSlayer/logo-demonslayer.png"><img>
+                <h2 class="nome-personagem"> Nezuko Kamado </h2>
+                <p class="descricao"> Nezuko Kamado é a irmã mais nova de Tanjiro Kamado e um dos dois membros restantes da família Kamado. Antes humana, ela foi atacada e transformada em um demônio por Muzan Kibutsuji. Procurar uma cura para Nezuko foi uma das razões que Tanjiro se tornou um Caçador de Demônios. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DemonSlayer/fundo-nezuko.mp4" type="video/mp4">
+
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <button id="playButton"> 🔊 </button>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DemonSlayer/circulo-muzan.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DemonSlayer/circulo-zenitsu.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado">
+                <img src="./src/imagens/DemonSlayer/circulo-tanjiro.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DemonSlayer/circulo-inosuke.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DemonSlayer/circulo-nezuko.png" alt="Logo ">
+            </button>
+        </li>
+    </ul>
+    <script src="./src/js/animepage.js"></script>
+
+</body>
+
+</html>

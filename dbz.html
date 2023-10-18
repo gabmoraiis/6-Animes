@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/animesreset.css">
+    <link rel="stylesheet" href="./src/css/animesstyles.css">
+    <link rel="stylesheet" href="./src/css/animesresponsivo.css">
+    <title> Dragon Ball - Super </title>
+</head>
+
+<body>
+
+    <audio id ="musica" src="./src/audios/openingDBZ.mp3" autoplay> </audio>
+
+    <main class="personagens">
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DBZSuper/logo-dbz.png"><img>
+                <h2 class="nome-personagem"> Jiren </h2>
+                <p class="descricao"> Jiren é um dos membros da Tropa do Orgulho do Undécimo Universo. É considerado o membro mais forte do time de seu Universo, tendo um poder de batalha maior que o de Vermodo, o Deus da Destruição. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DBZSuper/fundo-jiren.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">                     
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DBZSuper/logo-dbz.png"><img>
+                <h2 class="nome-personagem"> Vegeta </h2>
+                <p class="descricao"> Vegeta, o Príncipe dos Saiyajins é um dos principais personagens do mangá de Dragon Ball. Ele é o príncipe da raça dos Saiyajins e o maior rival de Goku, pelo fato de Vegeta não aceitar que um saiyajin de classe baixa como ele seja mais poderoso que o príncipe da raça. </p>
+            </div>
+
+            <video class="video selecionado" autoplay loop> 
+                <source src="./src/imagens/DBZSuper/fundo-vegeta.mp4" type="video/mp4">
+                
+        </div>
+
+        <div class="personagem selecionado">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DBZSuper/logo-dbz.png"><img>
+                <h2 class="nome-personagem"> Goku </h2>
+                <p class="descricao"> Goku é apresentado como um menino estranho, com rabo de macaco e força sobre-humana. Conforme a história se desenrola, é revelado que ele descende de uma raça fictícia chamada Saiyajins, uma das raças mais poderosas do universo. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DBZSuper/fundo-goku.mp4" type="video/mp4">
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DBZSuper/logo-dbz.png"><img>
+                <h2 class="nome-personagem"> Freeza </h2>
+                <p class="descricao"> Freeza é um dos vilões mais significativos sendo um Imperador Galáctico que dirige o Exército Galáctico de Freeza, temido por sua crueldade e poder. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DBZSuper/fundo-freeza.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/DBZSuper/logo-dbz.png"><img>
+                <h2 class="nome-personagem"> Android Nº 17 </h2>
+                <p class="descricao"> Androide 17 era um homem terráqueo, transformado em cyborg contra sua vontade juntamente com sua irmã, a Androide 18. Os dois foram modificados pelo cientista Dr. Gero com o objetivo de matar Goku, que derrotou a Força Red Ribbon quando era criança. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/DBZSuper/fundo-17.mp4" type="video/mp4">
+
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <button id="playButton"> 🔊 </button>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DBZSuper/circulo-jiren.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DBZSuper/circulo-vegeta.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado">
+                <img src="./src/imagens/DBZSuper/circulo-goku.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DBZSuper/circulo-freeza.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/DBZSuper/circulo-17.png" alt="Logo ">
+            </button>
+        </li>
+    </ul>
+    <script src="./src/js/animepage.js"></script>
+
+</body>
+
+</html>

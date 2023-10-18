@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/animesreset.css">
+    <link rel="stylesheet" href="./src/css/animesstyles.css">
+    <link rel="stylesheet" href="./src/css/animesresponsivo.css">
+    <title> Bleach </title>
+</head>
+
+<body>
+
+    <audio id ="musica" src="./src/audios/openingBleach.mp3" autoplay> </audio>
+
+    <main class="personagens">
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Bleach/logo-bleach.png"><img>
+                <h2 class="nome-personagem"> Aizen Sosuke </h2>
+                <p class="descricao"> Aizen inicialmente parecia ser um capitão muito gentil e respeitado do Gotei 13 e era admirado por muitos, especialmente seu tenente Momo Hinamori. No entanto, esta foi apenas uma máscara para disfarçar sua natureza manipuladora e muito perigosa. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Bleach/fundo-aizen.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">                     
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Bleach/logo-bleach.png"><img>
+                <h2 class="nome-personagem"> Urahara Kisuke </h2>
+                <p class="descricao"> Urahara é um ex-capitão da 12ª Divisão, bem como o fundador do Instituto de Pesquisa e Desenvolvimento Shinigami. Após ser exilado, ele agora vive no Mundo Humano, onde possui uma pequena loja de doces, a "Loja Urahara", que na verdade vende ferramentas Shinigami. </p>
+            </div>
+
+            <video class="video selecionado" autoplay loop> 
+                <source src="./src/imagens/Bleach/fundo-urahara.mp4" type="video/mp4">
+                
+        </div>
+
+        <div class="personagem selecionado">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Bleach/logo-bleach.png"><img>
+                <h2 class="nome-personagem"> Ichigo Kurosaki </h2>
+                <p class="descricao"> Ichigo é um adolescente de cabelo laranja capaz de ver espíritos desde criança. Ele mora na cidade de Karakura, junto com seu pai Isshin e suas duas irmãs mais novas, Karin e Yuzu. Seu pai é dono de uma pequena clínica hospitalar, que funciona em sua própria casa. Quando tinha nove anos, Ichigo confundiu durante uma chuva, um Hollow (Grand Fisher) com alguém em perigo. Consequentemente, sua mãe Kurosaki Masaki morreu ao tentar protegê-lo da criatura. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Bleach/fundo-ichigo.mp4" type="video/mp4">
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Bleach/logo-bleach.png"><img>
+                <h2 class="nome-personagem"> Rukia Kuchiki </h2>
+                <p class="descricao"> Rukia é a melhor amiga de Ichigo e tambem é um shinigami do sexo feminino que está encarregada de purificar na terra os espíritos impuros e os plus. Estes espíritos impuros também são conhecidos como hollows e são extremamente violentos e atraídos por energia espiritual. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Bleach/fundo-rukia.mp4" type="video/mp4">
+
+        </div>
+
+        <div class="personagem">
+            <div class="conteudo">
+                <img class="logo" src="./src/imagens/Bleach/logo-bleach.png"><img>
+                <h2 class="nome-personagem"> Ishida Uryū </h2>
+                <p class="descricao"> Uryū é um colega de classe do protagonista Ichigo Kurosaki e um Quincy, um clã de humanos com poderes especiais que foram exterminados no passado pelos Shinigami. </p>
+            </div>
+
+            <video class="video" autoplay loop> 
+                <source src="./src/imagens/Bleach/fundo-uryu.mp4" type="video/mp4">
+
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <button id="playButton"> 🔊 </button>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Bleach/circulo-aizen.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Bleach/circulo-urahara.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado">
+                <img src="./src/imagens/Bleach/circulo-ichigo.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Bleach/circulo-rukia.png" alt="Logo ">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/Bleach/circulo-uryu.png" alt="Logo ">
+            </button>
+        </li>
+    </ul>
+    <script src="./src/js/animepage.js"></script>
+
+</body>
+
+</html>
